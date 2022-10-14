@@ -5,12 +5,17 @@ const Gender = () => {
     <div className='gender-details'>
         <span className='gender-title'>Gender</span>
         <div className='category'>
-           <label for=""><span className='dot'></span>
-           <span className='gender'>Male</span>
-           </label>
-           <label for=""><span className='dot'></span>
-           <span className='gender'>Female</span>
-           </label>
+        <label>
+        <input type="radio" value="male" name="gender">
+           
+        </input>
+        <span className='option'> Male</span>
+        </label>
+        <label>
+        <input type="radio" value="female" name="gender">
+        </input>
+        <span className='option'> Female</span>
+        </label>
         </div>
     </div>
   )
