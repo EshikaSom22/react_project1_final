@@ -7,7 +7,6 @@ const Gender = () => {
         <div className='category'>
         <label>
         <input type="radio" value="male" name="gender">
-           
         </input>
         <span className='option'> Male</span>
         </label>
