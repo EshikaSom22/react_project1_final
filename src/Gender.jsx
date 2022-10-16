@@ -15,6 +15,11 @@ const Gender = () => {
         </input>
         <span className='option'> Female</span>
         </label>
+        <label>
+        <input type="radio" value="others" name="gender">
+        </input>
+        <span className='option'> Others</span>
+        </label>
         </div>
     </div>
   )
