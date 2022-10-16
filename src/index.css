@@ -64,9 +64,10 @@
     margin-right: 2px;
     padding: 2px;
     margin-left: 20px;
-    width: 170px;
+    width: 160px;
 }
 .name2{
+  margin-left: 10px;
     height: 40px;
     padding: 2px;
 }
